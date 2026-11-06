@@ -1,6 +1,6 @@
 import type { CodeItem, CodesResult, LocalCode, Stats } from './types';
 
-const DATA_URL = '/data/codes.json';
+const DATA_URL = `${import.meta.env.BASE_URL}data/codes.json`;
 const PAGE_DEFAULT = 20;
 
 interface RawDataset {
